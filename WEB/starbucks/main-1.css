@@ -1,0 +1,261 @@
+/*COMMON*/
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    /* img(인라인 요소) 하단에 Baseline 공백을 제거 */
+    display: block; /*display 속성을 블록으로 */
+}
+
+/*INNER*/
+.inner {
+    width: 1100px;
+    margin: 0 auto; /*위아래 0, 좌우 가운데 정렬*/
+    position: relative; /* .inner를 기준(부모)요소로 설정 */
+
+}
+
+/*HEADER*/
+header {
+    width: 100%;
+    position: fixed; /* header 위치를 브라우저 기준으로 설정 */
+    top: 0;
+    z-index: 9;
+    background-color: #F6F5F0;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+header .inner { /* header의 자식요소 .inner 선택 */
+    height: 120px;
+}
+
+header .logo {
+    height: 75px;
+    position: relative; /*inner를 부모요소로 설정*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; /*위아래좌우 가운데 설정*/
+}
+
+.sub-menu {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex; /*.sub-menu를 플렉스 컨테이너로 설정*/
+}
+
+.sub-menu ul.menu { /*.sub-menu의 하위요소 클래스가menu인 ul*/
+    font-family: Arial, sans-serif;
+    display: flex; /*display를 플렉스 컨테이너로 설정 */
+    list-style: none;
+}
+
+.sub-menu .menu { /*.sub-menu의 하위요소 클래스가menu인 ul의 li*/
+    position: relative;
+}
+
+.sub-menu ul.menu li a {
+    padding: 11px 16px;
+    display: block;
+    font-size: 13px;
+    color: #656565;
+}
+
+.sub-menu ul.menu li a:hover {
+    color: black;
+}
+
+.sub-menu .search {
+    position: relative; /*.search를 부모요소로 설정 */
+    height: 34px;
+    margin: auto;
+
+}
+
+.sub-menu .search input {
+
+    width: 190px;
+    height: inherit; /*부모요소로 상속받음 */
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    color: #777;
+    font-size: 12px;
+}
+
+.sub-menu .search .material-icons {
+    height: 24px; /*아이콘 폰트크기*/
+    position: absolute; /*.search의 자식요소로 설정*/
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    margin: 0 auto; /* 마진을 위아래 좌우 가운데 정렬 */
+
+}
+
+.main-menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    display: flex; /*.main-menu를 flex 컨테이너로 저장 */
+}
+
+.main-menu .item .item__name {
+    padding: 10px 20px 34px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.main-menu .item:hover .item__name {
+    background-color: #2C2A29;
+    color: #669900;
+    border-radius: 6px 6px 0 0;
+}
+
+.main-menu .item .item__contents {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    display: none;
+}
+
+.main-menu .item:hover .item__contents {
+    display: block; /* display속성을 박스모델로 설정 */
+}
+
+.main-menu .item .item__contents .contents__menu {
+    background-color: #2C2A29;
+}
+
+.main-menu .item .item__contents .contents__menu > ul {
+    padding: 20px 0;
+    display: flex; /* ul을  flex 컨테이너로 저장 */
+}
+
+.main-menu .item .item__contents .contents__menu > ul > li {
+    width: 220px;
+}
+
+.main-menu .item .item__contents .contents__menu > ul > li h4 {
+    padding: 3px 0 12px 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.main-menu .item .item__contents .contents__menu > ul > li ul li {
+    padding: 5px 0;
+    font-size: 12px;
+    color: #999;
+    cursor: pointer; /* 마우스롤 손 아이콘으로 설정함 */
+}
+
+.main-menu .item .item__contents .contents__menu > ul > li ul li:hover {
+    color: #669900;
+}
+
+.main-menu .item .item__contents .contents__texture {
+    padding: 26px 0;
+    font-size: 12px;
+    background-image: url("../images/main_menu_pattern.jpg");
+}
+
+.main-menu .item .item__contents .contents__texture h4 {
+    color: #999;
+    font-weight: 900;
+}
+
+.main-menu .item .item__contents .contents__texture p {
+    color: #64a70b;
+    margin: 4px 0 14px;
+}
+/*VISUAL css main-3*/
+.btn{ /*버튼 속성 */
+    width: 130px;
+    padding: 10px;
+    border:2px solid #333;
+    color : black;
+    font-size:16px;
+    font-weight: 700;
+    text-align : center;
+    cursor:pointer;/* 마우스를 올리면 손모양으로 설정 */
+    box-sizing: border-box;
+    display:block;
+    transition: .4s;
+
+}
+.btn:hover {
+    background-color: #333;
+    color: #FFF;
+}
+.visual {
+    margin-top: 120px;
+    background-image: url("../images/visual_bg.jpg");
+    background-position: center;
+
+}
+.visual .inner {
+    height: 646px;
+    position : relative;  /* 부모(기준)요소로 설정 */
+
+}
+.visual .title {
+    position : absolute ; /* 자식 요소로 설정 */
+    top: 88px;
+    left: -10px;
+}
+.visual .title .btn {
+    position : absolute;  /* 자식 요소로 설정 */
+    top: 259px;
+    left: 173px;
+}
+.visual .cup1.image {
+position: absolute;  /* 자식 요소로 설정 */
+bottom: 0;
+    right: -47px;
+}
+.visual .cup1 .text{ /* 클래스가 cup1이면서 클래스가 text인 요소  선택 */
+    position: absolute;
+    top: 38px;
+    right: 171px;
+}
+.visual .cup2 .image{ /* 클래스가 cup2이면서 클래스가 image인 요소  선택 */
+    position: absolute;
+    bottom: 0;
+    right: 162px;
+}
+.visual .cup2 .text{ /* 클래스가 cup2이면서 클래스가 text인 요소  선택 */
+    position: absolute;
+    top: 321px;
+    right: 416px;
+}
+.visual .spoon {
+    position: absolute;
+    bottom: 0;
+    left: 275px;
+}
+header .badges {
+position: absolute;/* 가까운 상위 relative 속성의 자식요소로 설정 */
+top: 132px;
+    right: 12px;
+}
+header .badges .badge {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.15);
+    cursor: pointer;/* 손가락 모양*/
+}

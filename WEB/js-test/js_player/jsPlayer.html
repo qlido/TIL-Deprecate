@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    p {
+        font-family: 'helvetica neue', helvetica, sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        border: 2px solid rgba(29,35,140,0.6);
+        background: rgba(70,70,148,0.3);
+        color: rgba(99 ,31,70,8);
+        box-shadow: 1px 1px 2px 1px rgba(170,30,200,0.4);
+        padding: 3px 10px;
+        display: inline-block;
+        cursor:pointer;
+        transform: rotate(3deg) skewX(-25deg) translateZ(-35px) }
+</style>
+</head>
+<body>
+  <p>Player 1 : Chris</p><br>
+  <p>Player 1 : Chris</p>
+<script>
+    const para = document.querySelector('p');
+    para.addEventListener('click',updateName);
+
+    function updateName() {
+        let name = prompt('Enter a New name');
+        para.textContent = `Player 2: ${name}`;
+    }
+</script>
+</body>
+</html>

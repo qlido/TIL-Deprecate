@@ -1,0 +1,29 @@
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>while문을 사용한 팩토리얼 계산</h1>
+
+  <script>
+    var n = prompt("숫자를 입력하세요.","10");
+    let mag = "";
+     if (n !== null) {  // '취소' 버튼을 누르지 않았는지 체크
+       var nFact = 1;  // 결과 값
+       var i = 1;  // 카운터
+       while (i <= n) {
+         nFact *= i;
+         i++;
+       }
+     }else{
+       msg ="값을 입력하지 않았습니다.";
+       document.write(msg);
+     }
+
+     document.write("<h1>"+nFact+"</h1>");
+  </script>'
+
+
+</body>
+</html>
+

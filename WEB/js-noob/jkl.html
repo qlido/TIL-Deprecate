@@ -1,0 +1,21 @@
+<head>
+    <meta charset="UTF-8">
+    <style>h3{color:red;}></style>
+</head>
+<body>
+<button onclick="textContent()">textContent로 표시</button>
+<button onclick="innhtml()">innerHTML로 표시</button>
+<h1>현재 시각: </h1>
+<div id="current"></div>
+
+<script>
+    let now = new Date();
+    let $curDiv = document.getElementById("current");
+    function textContent(){
+        $curDiv.textContent = `<h3>${now}</h3>`;      <!-- 내용만 요소에 저장-->
+    }
+    function innhtml() {
+        $curDiv.innerHTML = "<h3>" + now + "</h3>";<!-- 태그포함하여 요소에 저장-->
+    }
+</script>
+</body>
