@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    button{align-items: center}
+    #container{
+      width:100%;
+      background-color:#ddd;
+    }
+    #pbar{
+      width: 0;
+      height: 30px;
+      line-height:30px;
+      background-color: #8c9cec;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div id="container">
+  <div id="pbar"></div>
+</div>
+<br>
+<button type="button" onclick="pstart()">progress</button>
+<script>
+    let i=0;
+    function pstart(){
+        if (i==0){
+            let pbarDiv = document.getElementById("pbar");//#pbar요소를 객체 변수로 저장
+            let pbarWidth = 0;
+            let id = setInterval(frame,100);//frame()함수를 100밀리초마다 실행
+            function frame(){
+                if (pbarWidth >= 100){ //종료 조건
+                    clearInterval(id);//setInterval 종료
+                    i=0;
+                }
+                else{
+                    pbarWidth++;
+                    pbarDiv.style.width = pbarWidth+"%";//상태표시줄 div 너비를 저장
+                    pbarDiv.innerHTML = pbarWidth + "%";
+                }
+            }
+        }
+    }
+
+</script>
+
+</body>
+</html>
