@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>updown</title>
+  <style>
+    #wrapper {
+      position:relative;
+      width:300px;
+      height:400px;
+      margin:0 auto;
+      text-align:center;
+      border:10px solid rgb(33, 90, 50);
+      border-radius:10px;
+      outline:1.5px dotted #fff;
+      outline-offset:-6px;
+    }
+    h1 {
+      margin-top:0;
+      padding:10px;
+      background-color:rgb(81, 156, 62);
+      color:white;
+    }
+    form {
+      margin-top:40px;
+    }
+    input[type="text"] {
+      width:120px;
+      height:40px;
+      padding:0;
+      border:#ccc 1px solid;
+    }
+    .btn {
+      width:50px;
+      height:40px;
+      /* border-radius:50%; */
+      padding:10px 3px;
+      border:#ccc 1px solid;
+
+    }
+    .btn-1 {
+      background-color:azure;
+    }
+    .btn-2 {
+      background-color:khaki;
+    }
+    #display {
+      font-size:30px;
+      margin-top:70px;
+    }
+    .output {
+      font-size:20px;
+      font-weight:bold;
+    }
+    #counter {
+      position:absolute;
+      left:0;
+      bottom:0;
+      width:100%;
+      height:30px;
+
+    }
+    .footer {
+      background-color:rgb(86, 141, 86);
+      color:white;
+      line-height:30px;
+    }
+
+    .quest {
+      font-family:arial;
+      font-size:30px;
+      color:darkorange;
+      text-shadow:1px 1px 3px #222;
+      padding:2px 1px;
+    }
+  </style>
+</head>
+<body>
+<div id="wrapper">
+  <h1>숫자 맞히기 게임</h1>
+  <p>1에서 100 사이의 수를 입력하세요.</p>
+  <form onsubmit="return false;">
+    <label><input type="text" id="try" autocomplete="off" onkeypress="enter()" autofocus></label>
+    <input type="button" value="확인" id="check" class="btn btn-1" onclick="finding()">
+    <input type="button" value="다시" id="reset" class="btn btn-2" onclick="window.location.reload()">
+  </form>
+  <div id="display" class="output"></div>
+  <div id="counter" class="footer"></div>
+</div>
+<script>
+  let counter = 0;
+  let randomNumber = Math.round(Math.random() * 100) + 1;   // 컴퓨터 무작위 수 생성 1 ~ 100
+  console.log(randomNumber)
+  // 키보드 클릭해서 함수 실행
+  function enter() {
+    // enter 키인지 체크
+    if (window.event.keyCode == 13) {
+      finding();
+    }
+  }
+
+
+  function finding() {
+    let userNumber = document.getElementById("try").value;
+    if (userNumber>0&&userNumber<101) {
+      if (randomNumber > userNumber) {
+        document.getElementById("display").innerText = " UP!";
+      } else if (randomNumber < userNumber){
+        document.getElementById("display").innerText = " DOWN!";
+      } else {
+        document.getElementById("display").innerText = " 정답!";
+        document.getElementById('try').disabled = true;
+        document.getElementById('try').onkeypress = "";
+        document.getElementById('check').disabled = true;
+
+      }
+      counter++;
+      document.getElementById("counter").innerText = `${counter}번 시도하셨습니다`
+    } else {
+      document.getElementById("display").innerText = "1부터 100까지 입력하세요!";
+    }
+  }
+</script>
+</body>
+</html>
