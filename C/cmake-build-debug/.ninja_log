@@ -1,0 +1,13 @@
+# ninja log v5
+4	163	6826853621407757	CMakeFiles/nypc_drift.dir/nypc/drift.c.obj	2bdaf6c1261510b7
+164	427	6826853623958345	nypc_drift.exe	2a12c159cfbfa348
+1	173	6826907634195376	CMakeFiles/nypc_palpange.dir/nypc/palpange.c.obj	6f89e1d73490216b
+174	414	6826907636576823	nypc_palpange.exe	9fb3ad7db1255c00
+3	140	6826909300826829	CMakeFiles/nypc_palpange.dir/nypc/palpange.c.obj	6f89e1d73490216b
+141	366	6826909303027324	nypc_palpange.exe	9fb3ad7db1255c00
+3	122	6826909525070026	CMakeFiles/nypc_palpange.dir/nypc/palpange.c.obj	6f89e1d73490216b
+123	336	6826909527140492	nypc_palpange.exe	9fb3ad7db1255c00
+3	129	6826909734451524	CMakeFiles/nypc_palpange.dir/nypc/palpange.c.obj	6f89e1d73490216b
+130	347	6826909736581994	nypc_palpange.exe	9fb3ad7db1255c00
+3	131	6826909866235163	CMakeFiles/nypc_palpange.dir/nypc/palpange.c.obj	6f89e1d73490216b
+132	357	6826909868445663	nypc_palpange.exe	9fb3ad7db1255c00

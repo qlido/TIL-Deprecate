@@ -1,0 +1,4 @@
+C:/Users/jason/Desktop/TIL/C/cmake-build-debug/CMakeFiles/nypc_drift.dir
+C:/Users/jason/Desktop/TIL/C/cmake-build-debug/CMakeFiles/nypc_palpange.dir
+C:/Users/jason/Desktop/TIL/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jason/Desktop/TIL/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>Slideshow</title>
+  <link rel="stylesheet" href="slideShow.css">
+</head>
+<body>
+<div class="wrapper">
+  <div id="container">
+    <img src="images/pic-1.jpg" alt="">
+    <img src="images/pic-2.jpg" alt="">
+    <img src="images/pic-3.jpg" alt="">
+    <img src="images/pic-4.jpg" alt="">
+    <button id="prev" onclick="ChangeBack(1)">&lang;</button>
+    <button id="next" onclick="ChangeBack(-1)">&rang;</button>
+  </div>
+</div>
+<script>
+  let content = document.querySelectorAll("img");
+  function basic() {
+    content.forEach((i) => {
+      i.style.display = "none"
+    })
+  }
+  basic();
+  let de = 1;
+  document.querySelector("img").style.display = "block";
+  function ChangeBack(index) {
+    basic();
+    de += index;
+    if(de > 3){
+      de = 0;
+    }else if(de<0){
+      de = 3;
+    }
+
+    content[de].style.display = "block"
+
+  }
+
+</script>
+</body>
+</html>

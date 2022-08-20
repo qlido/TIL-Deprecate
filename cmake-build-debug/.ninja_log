@@ -1,0 +1,14 @@
+# ninja log v5
+3	646	6809068076007214	CMakeFiles/TIL.dir/C/CodeUp/test.c.obj	7583712e22a25e0b
+647	927	6809068078768446	TIL.exe	33408034e85cc1d6
+2	164	6826198578332242	build.ninja	d1119d9beb595c39
+4	167	6826220879246421	CMakeFiles/TIL.dir/C/CodeUp/test.c.obj	111f617a57ddf2a8
+14	175	6826220879266430	CMakeFiles/C_nypc_drift.dir/C/nypc/drift.c.obj	700b1457c5cd6937
+176	421	6826220881746985	C_nypc_drift.exe	86e2addfcdd9919b
+169	426	6826220881786992	TIL.exe	37dbc4ad215bf097
+4	142	6826221391920541	CMakeFiles/C_nypc_drift.dir/C/nypc/drift.c.obj	700b1457c5cd6937
+143	380	6826221394261072	C_nypc_drift.exe	86e2addfcdd9919b
+2	124	6826228266391264	CMakeFiles/C_nypc_drift.dir/C/nypc/drift.c.obj	700b1457c5cd6937
+126	343	6826228268511742	C_nypc_drift.exe	86e2addfcdd9919b
+3	135	6826228657506418	CMakeFiles/C_nypc_drift.dir/C/nypc/drift.c.obj	700b1457c5cd6937
+136	361	6826228659730260	C_nypc_drift.exe	86e2addfcdd9919b
