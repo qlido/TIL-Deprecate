@@ -1,6 +1,0 @@
-C:/Users/user/Desktop/bssm/github_learn/TIL/C/cmake-build-debug/CMakeFiles/CodeUp_1912.dir
-C:/Users/user/Desktop/bssm/github_learn/TIL/C/cmake-build-debug/CMakeFiles/CodeUp_1852.dir
-C:/Users/user/Desktop/bssm/github_learn/TIL/C/cmake-build-debug/CMakeFiles/CodeUp_1853.dir
-C:/Users/user/Desktop/bssm/github_learn/TIL/C/cmake-build-debug/CMakeFiles/CodeUp_1915.dir
-C:/Users/user/Desktop/bssm/github_learn/TIL/C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/user/Desktop/bssm/github_learn/TIL/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
