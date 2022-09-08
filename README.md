@@ -1,7 +1,7 @@
 # TIL
 ## may be upload 
 - web
-- db(orcle)
+- db(oracle)
 - java
 - kotlin
 - python
