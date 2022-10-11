@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f03b223c-a426-4023-b0ce-2d31efb6e2d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/java_learn/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_learn/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_learn/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_learn/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_learn/java_learn.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_learn/out/production/java_learn/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_learn/src/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin/Kotlin-Algorithm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin/Kotlin-Algorithm/src/main/kotlin/boj1676.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/github_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/Learn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/Learn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/out/production/Learn/META-INF/Learn.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/out/production/Learn/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/out/production/Learn/TestKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Learn/src/Test.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +39,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/KHH/Desktop/TIL",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -42,6 +58,9 @@
       <option name="presentableId" value="Default" />
       <updated>1660635412359</updated>
       <workItem from="1660635413770" duration="172000" />
+      <workItem from="1661610083830" duration="128000" />
+      <workItem from="1665472118676" duration="684000" />
+      <workItem from="1665486267476" duration="250000" />
     </task>
     <servers />
   </component>

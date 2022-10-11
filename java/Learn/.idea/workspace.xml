@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6dc7fe9-c022-476b-a87b-32d18940519a" name="Changes" comment="java">
-      <change beforePath="$PROJECT_DIR$/Learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn/META-INF/Learn.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn/TestKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +27,7 @@
       <list>
         <option value="Kotlin Script" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,6 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/KHH/Desktop/TIL/java/Learn",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -50,7 +63,7 @@
       <command value="Main" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.TestKt">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Learn" />
@@ -67,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Kotlin.TestKt" />
       </list>
     </recent_temporary>
   </component>
@@ -81,6 +94,11 @@
       <option name="presentableId" value="Default" />
       <updated>1660635586748</updated>
       <workItem from="1660635587913" duration="5026000" />
+      <workItem from="1661611874888" duration="20000" />
+      <workItem from="1661770292554" duration="1370000" />
+      <workItem from="1663154674997" duration="272000" />
+      <workItem from="1663503957943" duration="33000" />
+      <workItem from="1664177004986" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="java">
       <created>1660639275032</created>
