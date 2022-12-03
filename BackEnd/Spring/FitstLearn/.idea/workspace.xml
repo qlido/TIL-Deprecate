@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c1e037f-79c1-48ce-8b28-b9e87d6b52b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../DataStructure/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructure/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin-Algorithm/src/main/kotlin/boj1334.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/7.3.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/artifacts/learn_kotlin_react_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/modules/learn-kotlin_react.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/modules/learn-kotlin_react.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/kotlin-js-store/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/src/main/kotlin/Client.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/src/main/kotlin/Welcome.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/learn-kotlin_react/src/main/resources/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Hhn83SqHBb8TIYEeyHdwDEIHvq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c1e037f-79c1-48ce-8b28-b9e87d6b52b7" name="Changes" comment="" />
+      <created>1668746020331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668746020331</updated>
+      <workItem from="1668746022825" duration="1019000" />
+      <workItem from="1669027346378" duration="335000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
